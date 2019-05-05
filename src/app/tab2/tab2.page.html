@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="light">
+      <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Personal Profile
+    </ion-title>
+
+      <ion-icon class="logout" color="danger" slot="end" size="large" name="log-out" (click)="signOut()"></ion-icon> 
+      <!--Sign out icon in toolbar with signOut() function-->
+  
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="name">
+    <h1>Julius<br>Kerminen</h1>           <!--Personal profile content-->
+    <p>I am a aspiring Front-end developer from Finland with a
+        passion to web development and design. I'm dedicated to what ever I'm doing and I'm eager to learn more. 
+        I'm also very ambitious to progress on my career as developer.</p>
+      <div><p style="display:inline-block;color:#FF6F61;font-weight:bold;font-size:15pt;position: absolute;">                                                                 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scroll tab bar for more pages </p>
+        <ion-icon size="large" style="padding-top:8px;display:inline-block;color:#FF6F61;" name="arrow-round-forward"></ion-icon></div>
+      </div>
+</ion-content>

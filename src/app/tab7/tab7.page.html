@@ -1,0 +1,40 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+      <ion-title>Extra activities</ion-title>
+      <ion-icon class="logout" color="danger" slot="end" size="large" name="log-out" (click)="signOut()"></ion-icon>
+  
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content >
+    <ion-card>
+        <ion-card-header><h3><ion-icon name="walk"></ion-icon> &nbsp; Extra activities</h3></ion-card-header> <!-- Here I create Extra activities card-->
+
+
+        <ion-card-content style="padding-top:12px;">
+            
+          <ion-icon   name="laptop"></ion-icon><p>&nbsp;&nbsp;&nbsp;Working with computers</p>
+        </ion-card-content>
+     
+        <ion-card-content>
+            <ion-icon  name="logo-game-controller-b"></ion-icon><p>&nbsp;&nbsp;&nbsp;Playing video games</p>
+          </ion-card-content>
+    
+          <ion-card-content>
+             <ion-icon  name="code-working"></ion-icon><p>&nbsp;&nbsp;&nbsp;Coding</p>
+            </ion-card-content>
+          
+            <ion-card-content>
+                <ion-icon  name="paw"></ion-icon><p>&nbsp;&nbsp;&nbsp;Going out to nature with my dog</p>
+              </ion-card-content>
+         
+              <ion-card-content>
+                 <ion-icon  name="bicycle"></ion-icon><p>&nbsp;&nbsp;&nbsp;Exercising</p>
+                </ion-card-content>
+           
+      </ion-card>
+
+</ion-content>

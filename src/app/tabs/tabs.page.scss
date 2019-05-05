@@ -1,0 +1,21 @@
+
+ion-tab-bar{
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;                            // Making tab bar scrollable
+    justify-content: left !important;
+
+    ion-tab-button{
+        display: inline-block !important;
+        min-width: 80px!important;
+        width: auto !important;
+    }
+}
+ion-label{
+    font-weight: bold;
+}
+
+.tab-selected {
+    color: var(--ion-color-contrast);
+    border-bottom: 2px solid #FF6F61!important;     // Making selected tab have border bottom for easier regocnition             
+}

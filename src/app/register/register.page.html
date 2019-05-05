@@ -1,0 +1,29 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content ion-padding>
+
+  <h1>Julius Kerminen</h1>
+  <h3>Curriculum Vitae</h3>
+
+    <ion-item lines="none">
+        <ion-label style="margin-top: 20%;" color="dark" position="floating">Username</ion-label> <!--Register page input label-->
+        <ion-input type="text" [(ngModel)]="username"></ion-input>                              <!--Register page username text input field-->
+      </ion-item>
+
+      <ion-item lines="none">
+          <ion-label color="dark" position="floating">Password</ion-label>          <!--Register page input label-->
+          <ion-input type="password" [(ngModel)]="password"></ion-input>            <!--Register page password text input field-->
+        </ion-item>
+
+        <ion-item lines="none">
+          <ion-label color="dark" position="floating">Confirm password</ion-label>    <!--Register page input label-->
+          <ion-input type="password" [(ngModel)]="cpassword"></ion-input>             <!--Register page confirm password text input field-->
+        </ion-item>
+
+      <!--Register page button-->
+          <ion-button  style="width:80%;margin:auto;margin-top:30px;font-family: 'Scope One', serif;font-weight: bold;font-size: 13pt;" 
+          color="light" expand="block" shape="round" (click)="register()">REGISTER</ion-button>
+       
+</ion-content>

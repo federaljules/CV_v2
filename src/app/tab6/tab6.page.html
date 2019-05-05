@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+      <ion-title>Team projects</ion-title>
+      <ion-icon class="logout" color="danger" slot="end" size="large" name="log-out" (click)="signOut()"></ion-icon>
+  
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>             <!--Team projects card created-->
+    <ion-card>
+        <img src="../../assets/img/proj1.jpg">  
+        <ion-card-header>
+          <ion-card-subtitle>WEB-APP</ion-card-subtitle>
+           <ion-card-title style="color:#FF6F61;">Train schedule</ion-card-title><br>
+           <ion-card-subtitle>Stacks used JavaScript, HTML, CSS, REST API<br><br>
+              Frameworks used: jQuery</ion-card-subtitle>
+              <ion-item-divider></ion-item-divider>
+          </ion-card-header>
+          <ion-card-content>
+              In this project we created a web-app which lets users select any
+              train station in Finland and see selected stations and which
+              trains are departing in near future.<br><br>
+              <ion-icon style="font-size:18pt;" name="logo-github"></ion-icon> https://github.com/federaljules/Train_JavaScript<br><br>
+              <ion-icon style="font-size:18pt;" name="globe"></ion-icon> http://1800705.azurewebsites.net/Train_JavaScript/
+          </ion-card-content>
+       
+      </ion-card>
+</ion-content>

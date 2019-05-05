@@ -1,0 +1,58 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+      <ion-title>Personal projects</ion-title>
+      <ion-icon class="logout" color="danger" slot="end" size="large" name="log-out" (click)="signOut()"></ion-icon>
+  
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+
+<ion-card>                                                              <!--Personal projects cards created-->
+    <img src="../../assets/img/proj2.jpg"> 
+    <ion-card-header>
+      <ion-card-subtitle>WEB-APP</ion-card-subtitle>
+       <ion-card-title style="color:#FF6F61;">Weather</ion-card-title><br>
+       <ion-card-subtitle>Stacks used JavaScript, HTML, CSS, REST API<br><br>
+          Frameworks used: jQuery</ion-card-subtitle>
+          <ion-item-divider></ion-item-divider>
+      </ion-card-header>
+      <ion-card-content>
+          User can write city in the input box and search that city's
+          current weather, 5 day weather or use user GPS location to
+          determine location.<br><br>
+          <ion-icon style="font-size:18pt;" name="globe"></ion-icon> http://1800705.azurewebsites.net/saa/
+      </ion-card-content>
+   
+  </ion-card>
+
+  <ion-card>
+      <img src="../../assets/img/ionic4_proj.jpg">
+      <ion-card-header>
+        <ion-card-subtitle>SCHOOL TASKS</ion-card-subtitle>
+         <ion-card-title style="color:#FF6F61;">Ionic 4 Mobile app development and design tasks</ion-card-title><br>
+         <ion-card-subtitle>Stacks used: TypeScript, HTML, SCSS<br><br>
+          Frameworks used: Angular, Ionic 4</ion-card-subtitle>
+            <ion-item-divider></ion-item-divider>
+        </ion-card-header>
+        <ion-card-content>
+            <ul>
+              <li>Mobile UX and UI design principles and best practices</li>
+              <li>Creating Firebase database connection and authentication.</li>
+              <li>Using different components such as sliders, side menu, tabs and label. </li>
+              <li>Prototyping with online tools</li>
+              <li>Simple and professional mobile app design</li>
+            </ul>
+        <br>
+        <h2 style="font-weight: bold;">
+            Projects and tasks can be found in my GitHub
+            </h2>
+        <br><br>
+            <ion-icon style="font-size:18pt;" name="logo-github"></ion-icon> https://github.com/federaljules/
+        </ion-card-content>
+     
+    </ion-card>
+</ion-content>

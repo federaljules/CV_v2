@@ -1,0 +1,49 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/display.css';
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+@import url('https://fonts.googleapis.com/css?family=Scope+One');                           //Import custom fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Scope+One');                  //Import custom fonts
+
+
+ion-title{
+    font-family: 'Scope One', serif;
+    font-size: 18pt;
+}
+
+ion-tab-bar{
+    font-family: 'Scope One', serif;
+
+}
+
+.item-interactive, .item-interactive{
+    border: none!important;
+}
+
+.logout{
+    padding-right:15px;
+    opacity:.7;
+}
+
+.toast-err{                                                  //Create error toast style
+    --background:#f53d3d!important;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Scope One', serif;
+}
+
+.toast-succ{                                                //Create success toast style
+    --background:#5cb85c!important;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Scope One', serif;
+}

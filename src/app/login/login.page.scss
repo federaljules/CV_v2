@@ -1,0 +1,49 @@
+ion-item{
+    margin: auto!important;
+    width:90%;
+    --background: transparent!important;
+    
+}
+
+ion-content{
+    --background: url(../../assets/img/login_bg.jpg) no-repeat center center /cover;
+    
+}
+
+h1{
+    margin: auto!important;
+    text-align: center;
+    font-family: 'Scope One', serif!important;
+    margin-top: 20%!important;
+    font-size: 28pt;
+}
+
+h3{
+    margin: auto!important;
+    text-align: center;
+    font-family: 'Scope One', serif!important;
+
+}
+
+ion-label{
+    font-size: 13pt!important;
+    font-family: 'Scope One', serif!important;
+    
+    padding-left: 30px!important;
+    opacity: 1;
+    font-weight: bold;
+    z-index: 10;
+}
+
+ion-input{
+    border: 2px solid white;
+    padding: 10px!important;
+    --background:white!important;
+    opacity: .7;
+    border-radius: 30px;
+}
+
+ion-footer{
+    padding: 0;
+    margin: 0;
+}

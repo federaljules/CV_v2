@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="light">
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title>Contact information</ion-title>
+    <ion-icon class="logout" color="danger" slot="end" size="large" name="log-out" (click)="signOut()"></ion-icon>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+    <ion-card>
+        <img src="assets/img/julle.jpg"> <!-- Here I create image of myself on page-->
+
+        <ion-card-content ion-padding><ion-icon size="large" name="call"></ion-icon><p>&nbsp;&nbsp;&nbsp;+358 447 043 883</p></ion-card-content> <!-- Here I create phonenumber card-->
+
+        <ion-card-content ion-padding><ion-icon size="large" name="mail"></ion-icon><p>&nbsp;&nbsp;&nbsp;julius.kerminen@gmail.com</p></ion-card-content> <!-- Here I create email card-->
+      <ion-card-content> <!-- Here I create social media links on a card -->
+        <a button href="https://www.facebook.com/profile.php?id=100007811175244&ref=bookmarks"><ion-icon size="large"  name="logo-facebook"></ion-icon></a>
+        <a button href="https://www.linkedin.com/in/julius-kerminen-25086aa0/?originalSubdomain=fi"><ion-icon size="large"  name="logo-linkedin"></ion-icon></a>
+        <a button href="https://www.instagram.com/federaljules/?hl=en"><ion-icon size="large" name="logo-instagram"></ion-icon></a>
+        <a button href="https://github.com/federaljules/"><ion-icon size="large" name="logo-github"></ion-icon></a>
+
+      </ion-card-content>
+
+    </ion-card>
+    <ion-card>
+      <ion-header>
+          <h2 style="font-weight: bold;font-style: normal;font-size: medium; padding: 5px;">
+              Click this photo to download my Curriculum Vitae in .pdf form.
+            </h2>
+      </ion-header>
+        <a href="assets/img/julius_cv_dev.pdf" download>            <!--Making CV downloadable by clicking photo-->
+          <img src="assets/img/cv.jpg" alt="CV">
+        </a>
+   
+    
+    </ion-card>
+  
+
+</ion-content>
